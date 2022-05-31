@@ -4,7 +4,7 @@ import java.time.ZoneOffset
 class WallServices {
     private var posts = emptyArray<Post>()
 
-    private var newId = 0/*LocalDateTime.now().toEpochSecond(ZoneOffset.UTC).toInt()*/
+    private var newId = 1/*LocalDateTime.now().toEpochSecond(ZoneOffset.UTC).toInt()*/
 
     fun add(post: Post): Post {
         val newPost = post.copy(id = newId)
