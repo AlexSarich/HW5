@@ -12,6 +12,9 @@ class WallServicesTest {
             fromId = 1,
             date = 20122012,
             text = "text",
+            postSource = null,
+            copyHistory = null,
+            attachments = null
         )
         val unexpectedValue = 0
         assertNotEquals(unexpectedValue, service.add(post).id)
@@ -24,23 +27,35 @@ class WallServicesTest {
             ownerId = 1,
             fromId = 1,
             date = 20122012,
-            text = "text"))
+            text = "text",
+            postSource = null,
+            copyHistory = null,
+            attachments = null))
         service.add(Post(id = 2,
             ownerId = 2,
             fromId = 1,
             date = 20122012,
-            text = "extra text"))
+            text = "extra text",
+            postSource = null,
+            copyHistory = null,
+            attachments = null))
         service.add(Post(id = 3,
             ownerId = 3,
             fromId = 1,
             date = 20122012,
-            text = "more extra text"))
+            text = "more extra text",
+            postSource = null,
+            copyHistory = null,
+            attachments = null))
 
         val update = Post(id = 2,
             ownerId = 2,
             fromId = 1,
             date = 20122012,
-            text = "extra text")
+            text = "extra text",
+            postSource = null,
+            copyHistory = null,
+            attachments = null)
 
         val result = service.update(update)
         assertTrue(result)
@@ -54,23 +69,35 @@ class WallServicesTest {
             ownerId = 1,
             fromId = 1,
             date = 20122012,
-            text = "text"))
+            text = "text",
+            postSource = null,
+            copyHistory = null,
+            attachments = null))
         service.add(Post(id = 2,
             ownerId = 2,
             fromId = 1,
             date = 20122012,
-            text = "extra text"))
+            text = "extra text",
+            postSource = null,
+            copyHistory = null,
+            attachments = null))
         service.add(Post(id = 3,
             ownerId = 3,
             fromId = 1,
             date = 20122012,
-            text = "more extra text"))
+            text = "more extra text",
+            postSource = null,
+            copyHistory = null,
+            attachments = null))
 
         val update = Post(id = 10,
             ownerId = 6,
             fromId = 1,
             date = 20122012,
-            text = "much more extra text")
+            text = "much more extra text",
+            postSource = null,
+            copyHistory = null,
+            attachments = null)
 
         val result = service.update(update)
         assertFalse(result)
