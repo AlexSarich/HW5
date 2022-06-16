@@ -1,6 +1,6 @@
 
 data class Post(
-    var id: Int,
+    var id: UInt,
     val ownerId: Int,
     val fromId: Int,
     val createdBy: Int = 0,

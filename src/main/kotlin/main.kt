@@ -1,7 +1,7 @@
 
 fun main() {
     var post = Post(
-        id = 0,
+        id = 0U,
         ownerId = 1,
         fromId = 1,
         date = 20122012,

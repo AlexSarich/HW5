@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a3b74bd-2de9-449b-b220-1a17bbe9cf2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Attachments.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/CopyHistory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Geo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PostSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Comment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Comments.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Comments.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Post.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Post.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/WallServices.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/WallServices.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/WallServicesTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/WallServicesTest.kt" afterDir="false" />
     </list>
@@ -61,8 +58,8 @@
       <list>
         <option value="Kotlin File" />
         <option value="JUnit4 Test Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Sealed Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -106,7 +103,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HW5 [test]">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="HW5 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -128,6 +125,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="WallServicesTest.createComment_addComment" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;WallServicesTest.createComment_addComment&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="HW5.main" />
@@ -137,8 +157,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HW5 [test]" />
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.HW5 [test]" />
+        <item itemvalue="Gradle.WallServicesTest.createComment_addComment" />
       </list>
     </recent_temporary>
   </component>
